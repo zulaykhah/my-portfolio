@@ -1,3 +1,34 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "wuraola-headshot",
+      "description": "A professional headshot of Wuraola Ogunmola.",
+      "imageUrl": "https://images.unsplash.com/photo-1685760259914-ee8d2c92d2e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwwfHx8fDE3NjM3ODA1Njd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "project-devops",
+      "description": "Abstract image representing DevOps and automation.",
+      "imageUrl": "https://images.unsplash.com/photo-1568578322186-a0cb6cdeb9ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhdXRvbWF0aW9uJTIwcGlwZWxpbmV8ZW58MHx8fHwxNzYzNzg1NzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "automation pipeline"
+    },
+    {
+      "id": "project-windows-server",
+      "description": "Image of server racks.",
+      "imageUrl": "https://images.unsplash.com/photo-1643630331489-ca9c869161a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzZXJ2ZXIlMjByYWNrc3xlbnwwfHx8fDE3NjM3NzM1NjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "server racks"
+    },
+    {
+      "id": "project-digital-marketing",
+      "description": "Image representing digital marketing analytics.",
+      "imageUrl": "https://images.unsplash.com/photo-1738737271801-d404a575d870?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhbmFseXRpY3MlMjBjaGFydHxlbnwwfHx8fDE3NjM3MzA2MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "analytics chart"
+    },
+    {
+      "id": "project-networking",
+      "description": "Image of network cables and ports.",
+      "imageUrl": "https://images.unsplash.com/photo-1683322499436-f4383dd59f5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuZXR3b3JrJTIwY2FibGVzfGVufDB8fHx8MTc2MzcwOTY4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "network cables"
+    }
+  ]
 }
