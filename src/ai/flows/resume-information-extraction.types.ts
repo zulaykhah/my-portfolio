@@ -1,9 +1,3 @@
-/**
- * @fileOverview This file contains the types for the resume information extraction flow.
- *
- * - ResumeInformationInput - The input type for the extractResumeInformation function.
- * - ResumeInformationOutput - The return type for the extractResumeInformation function.
- */
 
 import {z} from 'genkit';
 
