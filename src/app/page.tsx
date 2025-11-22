@@ -1,5 +1,6 @@
 
-import { extractResumeInformation, type ResumeInformationOutput } from '@/ai/flows/resume-information-extraction';
+import { extractResumeInformation } from '@/ai/flows/resume-information-extraction';
+import { type ResumeInformationOutput } from '@/ai/flows/resume-information-extraction.types';
 import { resumeText } from '@/lib/resume';
 
 import Header from '@/components/header';

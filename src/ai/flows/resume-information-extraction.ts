@@ -4,32 +4,19 @@
  * @fileOverview This flow extracts key information from a resume document.
  *
  * - extractResumeInformation - Extracts information from resume text.
- * - ResumeInformationInput - The input type for the extractResumeInformation function.
- * - ResumeInformationOutput - The return type for the extractResumeInformation function.
  */
 
 import {ai} from '@/ai/genkit';
-import {z} from 'genkit';
+import {
+  ResumeInformationInputSchema,
+  ResumeInformationOutputSchema,
+  type ResumeInformationInput,
+  type ResumeInformationOutput,
+} from './resume-information-extraction.types';
 
-const ResumeInformationInputSchema = z.object({
-  resumeText: z
-    .string()
-    .describe('The text content of the resume to be processed.'),
-});
-export type ResumeInformationInput = z.infer<typeof ResumeInformationInputSchema>;
-
-const ResumeInformationOutputSchema = z.object({
-  experience: z
-    .array(z.string())
-    .describe('Work experience extracted from the resume.'),
-  education: z
-    .array(z.string())
-    .describe('Education history extracted from the resume.'),
-  skills: z.array(z.string()).describe('Skills extracted from the resume.'),
-});
-export type ResumeInformationOutput = z.infer<typeof ResumeInformationOutputSchema>;
-
-export async function extractResumeInformation(input: ResumeInformationInput): Promise<ResumeInformationOutput> {
+export async function extractResumeInformation(
+  input: ResumeInformationInput
+): Promise<ResumeInformationOutput> {
   return extractResumeInformationFlow(input);
 }
 
