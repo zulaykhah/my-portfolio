@@ -22,7 +22,7 @@ export default async function Home() {
       "Computer Science, Bachelor in Technology,Oct 2009 - Oct 2015,Ladoke Akintola University of Technology, Nigeria"
     ],
     skills: [
-      "Python", "JavaScript", "HTML", "CSS", "Git", "GitHub", "CI/CD", "Docker", "Jenkins", "Terraform", "Nexus", "Azure", "Cloud Computing", "SEO", "Google Ads", "Google Analytics", "Social Media Strategy", "Problem Solving", "Communication", "Teamwork"
+       "JavaScript", "HTML", "CSS", "Git", "GitHub", "Azure", "Cloud Computing", "SEO", "Google Ads", "Google Analytics", "Social Media Strategy", "Problem Solving", "Communication", "Teamwork"
     ]
   };
 
