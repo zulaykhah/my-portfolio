@@ -17,7 +17,6 @@ import {
   FormMessage,
 } from '@/components/ui/form';
 import { Card, CardContent } from '@/components/ui/card';
-// import { useToast } from '@/hooks/use-toast';
 import { submitContactForm } from '@/app/actions';
 import AnimateOnScroll from './animate-on-scroll';
 
@@ -30,7 +29,6 @@ const contactSchema = z.object({
 type ContactFormValues = z.infer<typeof contactSchema>;
 
 export default function ContactSection() {
-  // const { toast } = useToast();
   const [formStatus, setFormStatus] = useState<{ message: string; success: boolean | null }>({ message: '', success: null });
 
   const form = useForm<ContactFormValues>({
@@ -65,11 +63,6 @@ export default function ContactSection() {
         }
       }
     } catch (error) {
-      // toast({
-      //   variant: 'destructive',
-      //   title: 'Submission Error',
-      //   description: 'An unexpected error occurred. Please try again later.',
-      // });
       setFormStatus({ message: 'An unexpected error occurred. Please try again later.', success: false });
     }
   };
